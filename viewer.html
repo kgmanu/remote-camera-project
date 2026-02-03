@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Viewer - Remote Camera</title>
+</head>
+<body>
+  <h2>Viewer (Remote Device)</h2>
+  <p>Click View Stream to see camera</p>
+
+  <video id="remoteVideo" autoplay playsinline width="320"></video>
+  <br><br>
+  <button onclick="viewStream()">View Stream</button>
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

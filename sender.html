@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sender - Camera Stream</title>
+</head>
+<body>
+  <h2>Sender (Camera Device)</h2>
+  <p>Allow camera and click Start Streaming</p>
+  <p><b>Disclaimer:</b> Educational purpose only. User consent required.</p>
+
+  <video id="localVideo" autoplay playsinline width="320"></video>
+  <br><br>
+  <button onclick="startStream()">Start Streaming</button>
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
