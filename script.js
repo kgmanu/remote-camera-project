@@ -1,13 +1,16 @@
 // 🔹 Replace this with your Firebase project config
 const firebaseConfig = {
-  const firebaseConfig = {
-  apiKey: "AIzaSyABC123XYZ",
-  authDomain: "remote-camera-project.firebaseapp.com",
-  projectId: "remote-camera-project",
-  storageBucket: "remote-camera-project.appspot.com",
-  messagingSenderId: "987654321",
-  appId: "1:987654321:web:abcd1234"
+  apiKey: "AIzaSyDPboB-NOAKfFf2uh9vd0s2zMbezX6-iAg",
+  authDomain: "mmaannuu11223344.firebaseapp.com",
+  projectId: "mmaannuu11223344",
+  storageBucket: "mmaannuu11223344.firebasestorage.app",
+  messagingSenderId: "546810073036",
+  appId: "1:546810073036:web:d1547fe7db422475199769"
 };
+
+firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
+
 
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
@@ -68,4 +71,5 @@ async function viewStream() {
     document.getElementById("remoteVideo").srcObject = event.streams[0];
   };
 }
+
 
